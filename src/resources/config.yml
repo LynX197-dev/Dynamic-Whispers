@@ -1,0 +1,148 @@
+# Dynamic Whispers Configuration
+# This plugin creates psychological-horror events at night when players are alone.
+
+# Enable/disable the haunting system
+enabled: true
+
+# Cooldown between scares in seconds (default: 60)
+scare_cooldown_seconds: 60
+
+# Base chance to trigger a scare per check (0.0 to 1.0, default: 0.1)
+base_scare_chance: 0.1
+
+# Increased chance when player health is low (default: 0.2)
+low_health_chance: 0.2
+
+# Health threshold for low health bonus (default: 10)
+low_health_threshold: 10
+
+# Distance to consider a player "alone" in blocks (default: 50)
+alone_distance: 50
+
+# Minimum distance for entity spawn (default: 20)
+entity_distance_min: 20
+
+# Maximum distance for entity spawn (default: 30)
+entity_distance_max: 30
+
+# Minimum duration for entity in ticks (20 ticks = 1 second, default: 40)
+entity_duration_min: 40
+
+# Maximum duration for entity in ticks (default: 80)
+entity_duration_max: 80
+
+# Chance for double entity spawn (0.0 to 1.0, default: 0.1)
+double_entity_chance: 0.1
+
+# Task interval in ticks (100 ticks = 5 seconds, default: 100)
+task_interval_ticks: 100
+
+# List of whispers (gray text messages)
+whispers:
+  - "Someone is watching you..."
+  - "It sees you."
+  - "Don't turn around."
+  - "It moved."
+  - "Behind you."
+  - "You weren't supposed to see that."
+  - "Run."
+  - "It finds you interesting."
+  - "Don't move."
+  - "Run."
+  - "It wants you."
+  - "It waited for you."
+  - "I can hear your heartbeat."
+  - "The darkness is alive."
+  - "It knows where you sleep."
+  - "Your secrets are not safe."
+  - "The walls have eyes."
+  - "It whispers your name at night."
+  - "You can't hide forever."
+  - "It follows you in dreams."
+  - "The shadows remember."
+  - "It hungers for your fear."
+  - "Turn back while you can."
+  - "The silence is watching."
+  - "It crawls in your mind."
+  - "Your time is running out."
+  - "It sees through your lies."
+  - "The void calls your name."
+  - "You were chosen."
+  - "It waits in the corners."
+  - "The night belongs to it."
+  - "Your fear feeds it."
+  - "Don't close your eyes."
+  - "It knows your every move."
+  - "The mirror shows the truth."
+  - "It lives in your reflection."
+  - "You can't escape the watch."
+  - "The whispers never stop."
+  - "It smiles in the dark."
+  - "Your soul is marked."
+  - "The entity is near."
+  - "It breathes down your neck."
+  - "The air grows colder."
+  - "It feeds on your terror."
+  - "You feel its gaze."
+  - "The unseen observer."
+  - "It lurks in the unknown."
+  - "Your nightmares are real."
+  - "The watcher awakens."
+  - "It claims what it sees."
+  - "The darkness speaks."
+  - "You are not forgotten."
+  - "It watches your every step."
+  - "The veil is thinning."
+  - "It reaches from the void."
+  - "Your presence disturbs it."
+  - "The entity stirs."
+  - "It sees your weakness."
+  - "The shadows converge."
+  - "You can't outrun it."
+  - "It knows your deepest fears."
+  - "The watcher is pleased."
+  - "Your end draws near."
+  - "It whispers of doom."
+  - "The night hides many eyes."
+  - "It marks you as prey."
+  - "The unseen hand touches."
+  - "You feel the chill of death."
+  - "It laughs in silence."
+  - "The watcher never blinks."
+  - "Your fate is sealed."
+  - "It draws closer each night."
+  - "The darkness embraces you."
+  - "It knows your location."
+  - "The entity grows stronger."
+  - "You can't deny its presence."
+  - "It feeds on your doubt."
+  - "The whispers grow louder."
+  - "It sees your true self."
+  - "The night is its domain."
+  - "You are under surveillance."
+  - "It waits for the perfect moment."
+  - "The shadows come alive."
+  - "Your fear is delicious."
+  - "It watches from afar."
+  - "The entity is patient."
+  - "You can't shake the feeling."
+  - "It knows your routines."
+  - "The watcher is eternal."
+
+# List of fake system messages (dark gray text)
+messages:
+  - "[Server]: Unknown entity detected near you."
+  - "[Warning]: Visual anomaly detected."
+  - "[Server]: Connection unstable."
+  - "[Error]: Code 404 — tracking failed."
+  - "Entity 303 joined the server."
+  - "[Server]: Attempting to remove shadow… FAILED."
+  - "[Alert]: Movement detected at your coordinates."
+
+# List of sounds to play (Bukkit Sound enum names)
+sounds:
+  - "AMBIENT_CAVE_CAVE"
+  - "BLOCK_SCULK_SENSOR_CLICKING"
+  - "ENTITY_ENDERMAN_TELEPORT"
+  - "BLOCK_WOODEN_DOOR_CLOSE"
+  - "AMBIENT_CAVE_CAVE"
