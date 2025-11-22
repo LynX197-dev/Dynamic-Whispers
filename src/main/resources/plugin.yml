@@ -1,0 +1,5 @@
+name: Dynamic Whispers
+version: 1.0.0
+author: itz_lynx197
+main: com.itzlynx197.dynamicwhispers.DynamicWhispers
+api-version: 1.21
