@@ -1,5 +1,4 @@
 # Dynamic-Whispers
-[![Download on Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_64h.png)](https://modrinth.com/plugin/dynamic-whispers)
 
 # 🌑 Psychological Horror Experience for Minecraft  
 *A lightweight, atmospheric haunting system that targets players individually.*
